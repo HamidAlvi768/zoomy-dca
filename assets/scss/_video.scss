@@ -1,3 +1,5 @@
+@use "./variables" as *;
+@use "./mixins" as *;
 //popular-videos
 .popular-videos-area {
     .owl-carousel .owl-stage {

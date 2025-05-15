@@ -1,3 +1,5 @@
+@use "./variables" as *;
+@use "./mixins" as *;
 //about-us-area
 .about-section-wrapper {
     & .what-blur-shape-two {

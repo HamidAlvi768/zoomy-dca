@@ -1,3 +1,5 @@
+@use "./variables" as *;
+@use "./mixins" as *;
 //why-chose-us
 .why-chose-section-wrapper {
     @media #{$laptop} {

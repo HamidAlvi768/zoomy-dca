@@ -37,30 +37,30 @@
     26. footer
 
 -----------------------------------------------------------------------------------*/
-@import 'variables';
-@import 'mixins';
-@import 'common';
-@import 'overlay';
-@import 'header';
-@import 'breadcrumb';
-@import 'mobile-menu';
-@import 'search';
-@import 'custom-animation';
-@import 'btn';
-@import 'custom-container';
-@import 'slider';
-@import 'services';
-@import 'career';
-@import 'courses';
-@import 'chose';
-@import 'instructor';
-@import 'testimonial';
-@import 'blog';
-@import 'contact';
-@import 'video';
-@import 'faq';
-@import 'about';
-@import 'plan';
-@import 'footer';
+@use "./variables" as *;
+@use "./mixins" as *;
+@use "./common" as *;
+@use "./overlay" as *;
+@use "./header" as *;
+@use "./breadcrumb" as *;
+@use "./mobile-menu" as *;
+@use "./search" as *;
+@use "./custom-animation" as *;
+@use "./btn" as *;
+@use "./custom-container" as *;
+@use "./slider" as *;
+@use "./services" as *;
+@use "./career" as *;
+@use "./courses" as *;
+@use "./chose" as *;
+@use "./instructor" as *;
+@use "./testimonial" as *;
+@use "./blog" as *;
+@use "./contact" as *;
+@use "./video" as *;
+@use "./faq" as *;
+@use "./about" as *;
+@use "./plan" as *;
+@use "./footer" as *;
 
 

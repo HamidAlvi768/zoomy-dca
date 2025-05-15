@@ -1,3 +1,5 @@
+@use "./variables" as *;
+@use "./mixins" as *;
 //footer-area
 .footer__social {
    & a {

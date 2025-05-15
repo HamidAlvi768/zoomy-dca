@@ -1,3 +1,5 @@
+@use "./variables" as *;
+@use "./mixins" as *;
 //subscribe-area
 .subscribe-wrapper {
      h2 {

@@ -1,5 +1,5 @@
-//testimonial-area
-
+@use "./variables" as *;
+@use "./mixins" as *;
 
 .testimonia-active {
     .owl-carousel .owl-stage-outer {

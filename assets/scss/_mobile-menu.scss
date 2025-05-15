@@ -1,3 +1,6 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
 .slide-bar {
 	position: fixed;
 	overflow-y: auto;

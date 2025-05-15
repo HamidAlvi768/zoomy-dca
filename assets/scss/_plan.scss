@@ -1,3 +1,5 @@
+@use "./variables" as *;
+@use "./mixins" as *;
 //plan-area
 .plan {
     background-color: #8E66FF;

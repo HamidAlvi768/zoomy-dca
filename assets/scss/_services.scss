@@ -1,3 +1,5 @@
+@use "./variables" as *;
+@use "./mixins" as *;
 //great-deal-area
 .deal-box {
    & h2 {
