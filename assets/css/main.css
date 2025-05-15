@@ -7501,26 +7501,89 @@ input.main-search-input:-ms-input-placeholder {
   z-index: -1;
 }
 
-.cta-service-box {
-  background: rgba(255, 114, 58, 0.1);
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(27, 33, 47, 0.05);
+.current-sessions-section .session-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  min-height: 120px;
+  box-shadow: none;
 }
 
-.cta-services-area .col-md-3:nth-child(1) .cta-service-box {
-  background: rgba(255, 114, 58, 0.1);
+.current-sessions-section .session-date-box {
+  width: 120px;
+  min-width: 120px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px 0 0 12px;
 }
 
-.cta-services-area .col-md-3:nth-child(2) .cta-service-box {
-  background: #E0FAF6;
+.current-sessions-section .session-date-blue {
+  background: #3578d6;
+  color: #fff;
 }
 
-.cta-services-area .col-md-3:nth-child(3) .cta-service-box {
-  background: #EEEAFF;
+.current-sessions-section .session-date-yellow {
+  background: #f2c94c;
+  color: #fff;
 }
 
-.cta-services-area .col-md-3:nth-child(4) .cta-service-box {
-  background: #FAF8E4;
+.current-sessions-section .session-date-day {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.current-sessions-section .session-date-month {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.current-sessions-section .session-info {
+  padding: 24px 32px;
+  flex: 1;
+}
+
+.current-sessions-section .session-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #22314f;
+  margin-bottom: 8px;
+}
+
+.current-sessions-section .session-meta {
+  font-size: 18px;
+  color: #6c7a89;
+  display: flex;
+  align-items: center;
+}
+
+.current-sessions-section .session-meta i {
+  margin-right: 8px;
+  color: #3578d6;
+}
+
+@media (max-width: 767px) {
+  .current-sessions-section .session-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .current-sessions-section .session-date-box {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    min-width: 0;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 0;
+  }
+  .current-sessions-section .session-info {
+    padding: 16px 16px 24px 16px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
